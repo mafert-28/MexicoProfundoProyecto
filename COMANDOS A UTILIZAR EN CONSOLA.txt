@@ -1,0 +1,13 @@
+COMANDOS A UTILIZAR EN CONSOLA:
+
+# 1. Instalar dependencias
+npm install
+
+# 2. Probar conexión
+npm run test-simple
+
+# 3. Configurar base de datos completa
+npm run setup-database
+
+# 4. Cargar datos de ejemplo
+npm run load-sample-data

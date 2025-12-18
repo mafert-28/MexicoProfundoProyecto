@@ -1,0 +1,11 @@
+Para Producción:
+package.json - Dependencias y scripts
+mongodb-connection.js - Conexión a tu MongoDB Atlas
+setup-atlas-database.js - Inicializar base de datos
+load-sample-data.js - Cargar datos de ejemplo
+README.md - Instrucciones completas
+
+Para Desarrollo/Consulta:
+test-simple-connection.js - Probar conexión (útil para debugging)
+mongodb-schema-design.md - Documentación del esquema
+mongodb-best-practices.md - Mejores prácticas y seguridad

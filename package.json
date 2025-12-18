@@ -1,0 +1,45 @@
+{
+  "name": "mexico-profundo-database",
+  "version": "1.0.0",
+  "description": "Base de datos MongoDB para la Plataforma México Profundo - Micrositios de Comercialización",
+  "main": "mongodb-connection.js",
+  "scripts": {
+    "test-connection": "node mongodb-connection.js",
+    "test-simple": "node test-simple-connection.js",
+    "setup-database": "node setup-atlas-database.js",
+    "load-sample-data": "node load-sample-data.js",
+    "setup-complete": "npm run setup-database && npm run load-sample-data",
+    "queries-examples": "node mongodb-queries-examples.js"
+  },
+  "keywords": [
+    "mongodb",
+    "mexico-profundo",
+    "artesanos",
+    "cooperativas",
+    "micrositios",
+    "comercializacion",
+    "maya",
+    "atlas"
+  ],
+  "author": "México Profundo Team",
+  "license": "MIT",
+  "dependencies": {
+    "mongodb": "^5.9.0",
+    "bcrypt": "^5.1.1",
+    "dotenv": "^16.3.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.2"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mexico-profundo/database"
+  },
+  "bugs": {
+    "url": "https://github.com/mexico-profundo/database/issues"
+  },
+  "homepage": "https://mexicoprofundo.mx"
+}
