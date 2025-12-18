@@ -240,22 +240,4 @@ La plataforma soporta 5 idiomas:
 - **Francés** (fr) - Turismo europeo
 - **Chino** (zh) - Mercado asiático
 
-##  Integración Logística
 
-### Plataformas Soportadas
-- **Amazon Handmade** - Mercado internacional
-- **Mercado Libre** - Mercado latinoamericano
-- **Etsy** - Artesanías globales
-- **Tiendanube** - E-commerce regional
-- **Paqueterías locales** - Estafeta, DHL, Redpack
-
-##  Soporte y Contacto
-
-Para soporte técnico o consultas sobre la base de datos:
-
-- **Email:** soporte@mexicoprofundo.mx
-- **Documentación:** Ver archivos `.md` incluidos
-- **Issues:** Reportar en el repositorio del proyecto
-
-
-¡La base está sólida, ahora a construir la plataforma! 🚀
